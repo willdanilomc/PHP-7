@@ -10,7 +10,6 @@ class classecriada
     }
 }
 
-
 $nomes = new classecriada;
 $nomes->mostraNomes();
 

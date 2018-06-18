@@ -1,28 +1,23 @@
 <?php
 
-$mes = $_POST["mes"];
+$ano = date(Y);
 
-switch ($mes){
-        
+// Só usa switch caso for igual, caso nao mude o resultado e não precise tratar
+switch ($ano){
+
 //        Coloca todos em case
-        case 1: $mes = "Janeiro"; break;
-        case 2: $mes = "fevereiro"; break;
-        case 3: $mes = "Março"; break;
-        case 4: $mes = "Abril"; break;
-        case 5: $mes = "Maio"; break;
-        case 6: $mes = "Junho"; break;
-        case 7: $mes = "Julho"; break;
-        case 8: $mes = "Agosto"; break;
-        case 9: $mes = "Setembro"; break;
-        case 10: $mes = "Outubro"; break;
-        case 11: $mes = "Novembro"; break;
-        case 12: $mes = "Dezembro"; break;
-        
-//        Se nao existir mes ele tras 
-        default: $mes = "Inezistente";
-}
+        case 2018:
+        echo  "2018";
+        break;
 
-echo "Més é " . $mes;
+        case 2019:
+        echo "2019";
+        break;
+
+//        Se nao existir mes ele tras
+        default:
+        echo "Não existe";
+}
 
 
 ?>
