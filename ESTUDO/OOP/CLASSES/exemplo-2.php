@@ -2,9 +2,12 @@
 
 class Carro
 {
+
     private $modelo;
     private $motor;
     private $ano;
+
+    //
 
     public function getModelo()
     {
@@ -16,25 +19,31 @@ class Carro
         $this->modelo = $modelo;
     }
 
-    public function getMotor()
+    //
+
+    public function getMotor():float
     {
         return $this->motor;
     }
 
-    public function setMotos($motor)
+    public function setMotor($motor)
     {
         $this->motor = $motor;
     }
 
-    public function getAno()
+    //
+
+    public function getAno():int
     {
-        return $this->$ano;
+        return $this->ano;
     }
 
     public function setAno($ano)
     {
         $this->ano = $ano;
     }
+
+    //
 
     public function exibeCarro()
     {
@@ -46,6 +55,10 @@ class Carro
     }
 }
 
-
+$gol = new Carro();
+$gol->setModelo("Modelo GT");
+$gol->setMotor("1.6");
+$gol->setAno("2017");
+var_dump($gol->exibeCarro());
 
 ?>

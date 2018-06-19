@@ -5,3 +5,8 @@ $texto = "Willian Danilo Mendes Costa";
 $explodirNome = explode(" ", $texto, 1);
 foreach ($explodirNome as $separados);
 echo "Separados por " . $separados . "<br>";
+
+?>
+
+
+</div>
