@@ -12,19 +12,15 @@
   <?php
 
   // Nível (Caminho) - '' para a raiz ou index, '../' para subir um nivel, '../../' para subir dois niveis, e assim por diante.
-  define('U', ''); 
+  define('U', '');
 
   // ID da pagina no menu
-  define('MENU', 0); 
+  define('MENU', 0);
 
   // Chama o Header
-  include(U . 'includes/header.php'); 
+  include(U . 'includes/header.php');
 
-  ?>  
-
-  <?php include(U . 'includes/footer.php');   ?> 
+  ?>
 
 
-
-
-  
+  <?php include(U . 'includes/footer.php');   ?>

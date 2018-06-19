@@ -5,4 +5,5 @@ $numero = 65000;
 $numero = number_format($numero, 2 , ",", ".");
 echo "R$ ". $numero;
 
-?>
+
+
